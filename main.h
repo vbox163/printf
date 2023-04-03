@@ -7,6 +7,8 @@
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
+/**
+    @VBOX163 **/
 /* FLAGS */
 #define F_MINUS 1
 #define F_PLUS 2
@@ -115,3 +117,5 @@ long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
 #endif /* MAIN_H */
+/**
+    @VBOX163 **/

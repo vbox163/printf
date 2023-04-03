@@ -1,7 +1,7 @@
 #include "main.h"
 
 /************************* PRINT UNSIGNED NUMBER *************************/
-/**
+/** @VBOX163
  * print_unsigned - Prints an unsigned number
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
@@ -9,7 +9,7 @@
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed.
+ * Return: Number of chars printed @VBOX163
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -78,7 +78,7 @@ int print_octal(va_list types, char buffer[],
 }
 
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
-/**
+/** @VBOX163
  * print_hexadecimal - Prints an unsigned number in hexadecimal notation
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
@@ -86,7 +86,7 @@ int print_octal(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of chars printed @VBOX163
  */
 int print_hexadecimal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
